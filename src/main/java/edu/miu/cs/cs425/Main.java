@@ -10,7 +10,8 @@ public class Main {
         var publishers= List.of(
                 new Publisher(101,"A Karim","sales@karim.com","123-4569856"),
                 new Publisher(102,"A Baten","sales@baten.com","123-4569856"),
-                new Publisher(103,"A Salam","sales@salam.com",null)
+                new Publisher(103,"A Salam","sales@salam.com",null),
+                new Publisher(104,"A Kalam","sales@kalam.com",null)
         );
         publishers.forEach(System.out::println);
     }
